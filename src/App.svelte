@@ -40,7 +40,7 @@
 			<button
 				class="edit-button"
 				onclick={() => {
-					navigator.clipboard.writeText(window.location.origin + `?x=${x}&y=${y}`);
+					navigator.clipboard.writeText(window.location.href);
 				}}
 			>
 				Copy Link
