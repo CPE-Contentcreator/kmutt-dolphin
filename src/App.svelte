@@ -31,8 +31,6 @@
 </script>
 
 <main>
-	<h1>Kmutt ส่งโลมา</h1>
-
 	<div>
 		{#if !edit}
 			<button class="edit-button" onclick={() => (edit = true)}>Edit</button>
@@ -59,6 +57,7 @@
 
 <style>
 	main {
+		padding: 0.5rem;
 		width: 100vw;
 		display: flex;
 		flex-direction: column;
