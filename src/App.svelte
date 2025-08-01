@@ -104,6 +104,7 @@
 		background-size: 32px;
 		background-repeat: no-repeat;
 		background-position: center;
+		pointer-events: none;
 
 		animation: jump 1s ease-in-out infinite;
 	}
